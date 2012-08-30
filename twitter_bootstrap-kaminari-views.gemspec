@@ -16,6 +16,33 @@ Gem::Specification.new do |s|
     "LICENSE.txt",
     "README.md"
   ]
+  s.files = [
+    ".DS_Store",
+    "Gemfile",
+    "Gemfile.lock",
+    "LICENSE.txt",
+    "README.md",
+    "Rakefile",
+    "VERSION",
+    "app/.DS_Store",
+    "app/views/.DS_Store",
+    "app/views/kaminari/_first_page.html.erb",
+    "app/views/kaminari/_first_page.html.haml",
+    "app/views/kaminari/_gap.html.erb",
+    "app/views/kaminari/_gap.html.haml",
+    "app/views/kaminari/_last_page.html.erb",
+    "app/views/kaminari/_last_page.html.haml",
+    "app/views/kaminari/_next_page.html.erb",
+    "app/views/kaminari/_next_page.html.haml",
+    "app/views/kaminari/_page.html.erb",
+    "app/views/kaminari/_page.html.haml",
+    "app/views/kaminari/_paginator.html.erb",
+    "app/views/kaminari/_paginator.html.haml",
+    "app/views/kaminari/_prev_page.html.erb",
+    "app/views/kaminari/_prev_page.html.haml",
+    "lib/twitter_bootstrap-kaminari-views.rb",
+    "twitter_bootstrap-kaminari-views.gemspec"
+  ]
   s.homepage = "http://github.com/kristianmandrup/twitter_bootstrap-kaminari-views"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
